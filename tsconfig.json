@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es6",
+        "alwaysStrict": true,
+        "jsx": "react",
+        "outDir": "wwwroot/scripts",
+        "pretty": true,
+        "module": "commonjs",
+        "noImplicitReturns": true
+    },
+    "include": [
+        "Scripts/**/*.tsx",
+        "Scripts/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "wwwroot"
+    ]
+}
